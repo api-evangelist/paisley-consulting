@@ -1,8 +1,28 @@
 aid: paisley-consulting
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/paisley-consulting.png
 name: Paisley Consulting
-description: Paisley Consulting is a company surfaced as a portfolio company of insight-partners and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Paisley Consulting was a governance, risk, and compliance (GRC) software
+  company best known for its AutoAudit internal audit management product. The
+  Paisley Consulting brand and its paisleyconsulting.com domain now redirect to
+  Empowered Systems, a GRC software vendor whose Connected Risk platform delivers
+  internal audit, internal controls, enterprise risk, operational risk,
+  third-party risk, model risk, and policy & compliance management, along with
+  the AutoAudit audit solution. The company supports frameworks including
+  SOX/ICFR, COSO, Basel III, NIST, ISO 27001, and DORA. Surfaced as a portfolio
+  company of Insight Partners and added to the API Evangelist network for
+  enrichment; no public API, SDK, or developer surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/paisley-consulting/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,14 +30,36 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-note: >-
+  paisleyconsulting.com 301-redirects to empoweredsystems.com; the company now
+  operates as Empowered Systems. No public API surface found (2026-07-20).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Governance
+- Risk
+- Compliance
+- GRC
+- Audit
+- Internal Audit
+- Enterprise Risk
 apis: []
+common:
+- type: Website
+  url: https://empoweredsystems.com/
+- type: Blog
+  url: https://empoweredsystems.com/blog-2/
+- type: Support
+  url: https://empoweredsystems.atlassian.net/servicedesk/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
