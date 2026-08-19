@@ -33,7 +33,7 @@ x-tier-reason: portfolio-lead
 x-note: >-
   paisleyconsulting.com 301-redirects to empoweredsystems.com; the company now
   operates as Empowered Systems. No public API surface found (2026-07-20).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
