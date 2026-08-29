@@ -35,6 +35,8 @@ description: >-
   company of Insight Partners and added to the API Evangelist network for
   enrichment; no public API, SDK, or developer surface is currently published.
 url: https://raw.githubusercontent.com/api-evangelist/paisley-consulting/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
